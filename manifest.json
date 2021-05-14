@@ -1,0 +1,23 @@
+{
+    "name": "MVP HUNTER",
+    "description": "Extensão para marcar o tempo do spawn do mvp",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+        "permissions": [
+            "storage",
+            "tab"
+        ],
+        "action": {
+            "default_popup": "popup.html",
+            "default_title": "MVP_HUNTER",
+            "default_icon": "images/icon.jpg"
+        }
+    
+   
+
+
+    }
